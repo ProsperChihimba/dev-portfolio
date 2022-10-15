@@ -1,5 +1,6 @@
 import { Container } from '@chakra-ui/react';
 import { About } from '../src/components/about';
+import { Footer } from '../src/components/footer';
 import { Projects } from '../src/components/projects';
 import { Tooling } from '../src/components/tooling';
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <About />
       <Projects />
       <Tooling />
+      <Footer />
     </Container>
   );
 }
