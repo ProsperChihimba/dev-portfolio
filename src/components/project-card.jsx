@@ -1,31 +1,7 @@
-import {
-  Badge,
-  Box,
-  Flex,
-  Heading,
-  Stack,
-  Text,
-  VisuallyHidden,
-  Wrap,
-} from '@chakra-ui/react';
+import { Badge, Box, Flex, Heading, Stack, Text, Wrap } from '@chakra-ui/react';
 import Image from 'next/future/image';
 import { IoLogoGithub, IoMdLink } from 'react-icons/io';
 import { CustomButton } from './custom-button';
-
-export function LinkButton({ icon, link, size, color, label, ...rest }) {
-  return (
-    <Box as='a' href={link} target='_blank' {...rest}>
-      <Box
-        as={icon}
-        size={size}
-        color={color}
-        transition='all 0.3s'
-        _hover={{ color: 'teal.500' }}
-      />
-      <VisuallyHidden>{label}</VisuallyHidden>
-    </Box>
-  );
-}
 
 export function ProjectCard({ tags, title, description, src, ...rest }) {
   return (
