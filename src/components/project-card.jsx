@@ -15,11 +15,11 @@ export function ProjectCard({ tags, title, description, src, ...rest }) {
       {...rest}
     >
       <Flex direction={{ base: 'column', sm: 'row' }}>
-        <Box>
+        <Box maxW='360px' w='100%'>
           <Image
             src={src}
             height={400}
-            width={500}
+            width={540}
             alt={title}
             style={{ objectFit: 'cover', height: '100%' }}
           />
