@@ -1,12 +1,4 @@
-import {
-  HStack,
-  Stack,
-  Text,
-  Box,
-  Image,
-  SimpleGrid,
-  VStack,
-} from '@chakra-ui/react';
+import { Box, Image, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react';
 import { toolsData } from './tools-data';
 
 export function Tools({ title, src, bg, color, tool, ...rest }) {
