@@ -4,7 +4,7 @@ import { footerData } from './footer-links-data';
 
 export function Footer() {
   return (
-    <Box as='footer' py="8">
+    <Box as='footer' p='8'>
       <Container maxW='container.lg'>
         <Stack
           direction={{ base: 'column', lg: 'row' }}
